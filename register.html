@@ -1,15 +1,144 @@
-<!doctype html>
-<html lang="ar" dir="rtl">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>التسجيل | مطعم الوجبات الصحية</title>
-<link rel="stylesheet" href="styles.css">
-</head>
-<body>
-<header><div class="container"><a class="logo" href="index.html">مطعم الوجبات الصحية</a><nav><a href="index.html">الرئيسية</a><a href="about.html">من نحن</a><a href="nutrition.html">القيم الغذائية</a><a href="register.html">التسجيل</a><a href="calculator.html">الحاسبة</a><a href="bowls.html">الأطباق</a><a href="wraps.html">الراب</a><a href="smoothies.html">المشروبات</a><a href="snacks.html">الوجبات الخفيفة</a><a href="order.html">الطلب</a></nav></div></header>
-<main class="container"><div class="content"><h1>إنشاء حساب</h1><p>أدخلي بياناتك في النموذج التالي.</p><form onsubmit="return validateRegister()"><label>الاسم الكامل:<input id="fullName" type="text" placeholder="الاسم الكامل"></label><label>البريد الإلكتروني:<input id="email" type="text" placeholder="name@example.com"></label><label>كلمة المرور:<input id="password" type="password" placeholder="كلمة المرور"></label><label>الهدف:<select id="goal"><option value="">اختاري هدفًا</option><option>وجبات متوازنة</option><option>خيارات نباتية</option><option>وجبات عالية البروتين</option></select></label><label>ملاحظات:<textarea id="notes" rows="5"></textarea></label><label class="check"><input id="terms" type="checkbox"> أوافق على البيانات المدخلة</label><input class="button" type="submit" value="إنشاء الحساب"><input class="button reset" type="reset" value="مسح البيانات"></form></div><aside class="side"><h2>روابط سريعة</h2><ul><li><a href="index.html">الرئيسية</a></li><li><a href="about.html">من نحن</a></li><li><a href="nutrition.html">القيم الغذائية</a></li><li><a href="register.html">التسجيل</a></li><li><a href="calculator.html">الحاسبة</a></li></ul></aside></main>
-<footer><div class="container"><p>جميع الحقوق محفوظة 2026</p></div></footer>
-<script src="script.js"></script>
-</body>
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   التسجيل | مطعم الوجبات الصحية
+  </title>
+  <link href="styles.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <a class="logo" href="index.html">
+     مطعم الوجبات الصحية
+    </a>
+    <nav>
+     <a href="index.html">
+      الرئيسية
+     </a>
+     <a href="about.html">
+      من نحن
+     </a>
+     <a href="nutrition.html">
+      القيم الغذائية
+     </a>
+     <a href="register.html">
+      التسجيل
+     </a>
+     <a href="calculator.html">
+      الحاسبة
+     </a>
+     <a href="bowls.html">
+      الأطباق
+     </a>
+     <a href="wraps.html">
+      الراب
+     </a>
+     <a href="smoothies.html">
+      المشروبات
+     </a>
+     <a href="snacks.html">
+      الوجبات الخفيفة
+     </a>
+     <a href="order.html">
+      الطلب
+     </a>
+    </nav>
+   </div>
+  </header>
+  <main class="container">
+   <div class="content">
+    <h1>
+     إنشاء حساب
+    </h1>
+    <p>
+     أدخلي بياناتك في النموذج التالي.
+    </p>
+    <form onsubmit="return validateRegister()">
+     <label>
+      الاسم الكامل:
+      <input id="fullName" placeholder="الاسم الكامل" type="text"/>
+     </label>
+     <label>
+      البريد الإلكتروني:
+      <input id="email" placeholder="name@example.com" type="text"/>
+     </label>
+     <label>
+      كلمة المرور:
+      <input id="password" placeholder="كلمة المرور" type="password"/>
+     </label>
+     <label>
+      الهدف:
+      <select id="goal">
+       <option value="">
+        اختاري هدفًا
+       </option>
+       <option>
+        وجبات متوازنة
+       </option>
+       <option>
+        خيارات نباتية
+       </option>
+       <option>
+        وجبات عالية البروتين
+       </option>
+      </select>
+     </label>
+     <label>
+      ملاحظات:
+      <textarea id="notes" rows="5"></textarea>
+     </label>
+     <label class="check">
+      <input id="terms" type="checkbox"/>
+      أوافق على البيانات المدخلة
+     </label>
+     <input class="button" type="submit" value="إنشاء الحساب"/>
+     <input class="button reset" type="reset" value="مسح البيانات"/>
+    </form>
+   </div>
+   <aside class="side">
+    <h2>
+     روابط سريعة
+    </h2>
+    <ul>
+     <li>
+      <a href="index.html">
+       الرئيسية
+      </a>
+     </li>
+     <li>
+      <a href="about.html">
+       من نحن
+      </a>
+     </li>
+     <li>
+      <a href="nutrition.html">
+       القيم الغذائية
+      </a>
+     </li>
+     <li>
+      <a href="register.html">
+       التسجيل
+      </a>
+     </li>
+     <li>
+      <a href="calculator.html">
+       الحاسبة
+      </a>
+     </li>
+    </ul>
+   </aside>
+  </main>
+  <footer>
+   <div class="container">
+    <p>
+     جميع الحقوق محفوظة 2026
+    </p>
+   </div>
+  </footer>
+  <script src="script.js">
+  </script>
+ </body>
 </html>
